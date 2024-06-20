@@ -1,0 +1,22 @@
+{
+     "name": "photonjs",
+     "type": "module",
+     "version": "1.0.0",
+     "description": "An extremely lightweight library for API development.",
+     "main": "index.js",
+     "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1"
+     },
+     "keywords": [
+          "api"
+     ],
+     "author": {
+          "name": "Keegan Fontaine",
+          "email": "keegsfontaine@gmail.com"
+     },
+     "repository": {
+          "type": "git",
+          "url": ""
+     },
+     "license": "ISC"
+}
