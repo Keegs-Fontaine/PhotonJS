@@ -1,5 +1,5 @@
 {
-     "name": "photonjs",
+     "name": "photon-api",
      "type": "module",
      "version": "1.0.0",
      "description": "An extremely lightweight library for API development.",
@@ -18,5 +18,8 @@
           "type": "git",
           "url": ""
      },
-     "license": "ISC"
+     "license": "ISC",
+     "devDependencies": {
+          "prettier": "^3.3.2"
+     }
 }
