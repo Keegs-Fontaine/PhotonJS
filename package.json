@@ -1,27 +1,29 @@
 {
-     "name": "photon-api",
-     "type": "module",
-     "version": "1.0.0",
-     "description": "An extremely lightweight library for API development.",
-     "main": "index.js",
-     "scripts": {
-          "test": "echo \"Error: no test specified\" && exit 1"
-     },
-     "keywords": [
-          "api"
-     ],
-     "author": {
-          "name": "Keegan Fontaine",
-          "email": "keegsfontaine@gmail.com"
-     },
-     "repository": {
-          "type": "git",
-          "url": ""
-     },
-     "license": "ISC",
-     "devDependencies": {
-          "@types/node": "^20.14.7",
-          "prettier": "^3.3.2",
-          "typescript": "^5.5.2"
-     }
+    "name": "photon-api",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "An extremely lightweight library for API development.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon --watch 'src/**/*.ts' --exec npx tsx src/index.ts"
+    },
+    "keywords": [
+        "api"
+    ],
+    "author": {
+        "name": "Keegan Fontaine",
+        "email": "keegsfontaine@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.14.7",
+        "nodemon": "^3.1.4",
+        "prettier": "^3.3.2",
+        "tsx": "^4.15.6",
+        "typescript": "^5.5.2"
+    }
 }
